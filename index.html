@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A responsive landing page with modern design, smooth scrolling, and accessible semantic structure.">
+  <title>Nimbus | Build Better Digital Experiences</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Nimbus home">
+        <span class="brand-mark">N</span>
+        <span class="brand-text">Nimbus</span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="nav-menu"
+        aria-label="Open navigation menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-menu" id="nav-menu">
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="#contact">Start Now</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Modern teams, clearer momentum</p>
+          <h1>Launch faster with a landing page that feels polished on every screen.</h1>
+          <p class="hero-text">
+            Nimbus helps growing teams present their product with confidence through clean layouts,
+            stronger messaging, and a smoother browsing experience.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#features">Explore Features</a>
+            <a class="button button-secondary" href="#about">See How It Works</a>
+          </div>
+          <ul class="hero-stats" aria-label="Platform highlights">
+            <li><strong>98%</strong><span>customer satisfaction</span></li>
+            <li><strong>24/7</strong><span>team availability</span></li>
+            <li><strong>3x</strong><span>faster setup time</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-card reveal" aria-label="Product preview card">
+          <div class="panel">
+            <div class="panel-top">
+              <span class="panel-pill">Live Preview</span>
+              <span class="panel-badge">Responsive</span>
+            </div>
+            <h2>Everything your audience needs, above the fold and beyond.</h2>
+            <p>
+              Structured sections, adaptable layouts, and thoughtful interactions all working together
+              to create a modern first impression.
+            </p>
+            <div class="mini-grid">
+              <article>
+                <h3>Fast Layout</h3>
+                <p>Built with flexible grids that adapt naturally to smaller and larger screens.</p>
+              </article>
+              <article>
+                <h3>Accessible</h3>
+                <p>Semantic structure, keyboard-friendly navigation, and readable content flow.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features section" id="features">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Features</p>
+          <h2>Built to make a strong first impression.</h2>
+          <p>
+            Every section is designed to be useful, visually balanced, and easy to navigate across devices.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true">01</div>
+            <h3>Responsive by default</h3>
+            <p>Mobile-first styling ensures the layout scales smoothly from phones to wide desktop screens.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true">02</div>
+            <h3>Clean semantic structure</h3>
+            <p>HTML sections, headings, and navigation landmarks improve both accessibility and search visibility.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true">03</div>
+            <h3>Subtle motion</h3>
+            <p>Smooth scrolling and scroll-based reveal animations add energy without overwhelming the page.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container about-grid">
+        <div class="about-card reveal">
+          <p class="eyebrow">Why Nimbus</p>
+          <h2>Simple structure, stronger storytelling.</h2>
+          <p>
+            Good landing pages do more than look nice. They guide visitors from curiosity to clarity with a
+            rhythm that feels natural on every device.
+          </p>
+        </div>
+
+        <div class="about-list reveal">
+          <article>
+            <h3>Designed for clarity</h3>
+            <p>Clear visual hierarchy helps visitors understand the offer quickly and take action with confidence.</p>
+          </article>
+          <article>
+            <h3>Ready for extension</h3>
+            <p>The page structure is easy to expand with testimonials, pricing, FAQs, or a signup form later.</p>
+          </article>
+          <article>
+            <h3>Lightweight interaction</h3>
+            <p>Basic JavaScript handles navigation behavior and animations without adding complexity.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section" id="contact">
+    <div class="container footer-content reveal">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Ready to build your next landing page?</h2>
+        <p>Start with a responsive foundation and refine from there.</p>
+      </div>
+      <a class="button button-primary" href="mailto:hello@nimbus.example">hello@nimbus.example</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
